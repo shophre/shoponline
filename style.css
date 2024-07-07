@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%,), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+
+.logo{
+    color: rgb(17, 17, 16);
+    font-size: 30px;
+    font-family: 'century';
+    padding-right: 2cm;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    min-height: auto;
+    border: 1px solid #dadbd6;
+    background-color: #dadbd6;
+    height: 100px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 43px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #3f3f3f;
+    font-family:barlow condensed,sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #7c706f;
+    padding: 12px;
+    background-color: #B8BABF;
+    transition: 1s;
+}
+
+.box1{
+    border: 1px solid blanchedalmond;
+    background-color: #dadbd6;
+    height: 30px;
+}
+ol{
+    float: left;
+    color: white;
+}
+
+ol li{
+    margin-top: -10px;
+    float: left;
+    position: relative;
+    left: 360%;
+    width: 100px;
+    font-size: 14px;
+    font-family: barlow condensed,sans-serif;
+    list-style-type: none;
+    top: -40px;
+}
+ol li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.content h1{
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 5%;
+    color: #3f3f3f;
+    font-size: 50px;
+
+}
+.shop{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 26%;
+
+}
+.shop a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #554e4b;
+    padding: 10px;
+    border: 2px #3f3f3f;
+}
+
+.container{
+    width: 100%;
+    min-height: fit-content;
+    background-color: #B8BABF;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    background: rgb(255, 255, 255,0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+
+}
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #7c706f;
+}
+::placeholder{
+    color: #fff;
+}
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #58629b;
+}
